@@ -35,4 +35,13 @@ public class AutoNotificationFixtureService {
         }
         return normalized;
     }
+
+    public boolean isNotificationValid(String message) {
+        // DEFECT: Temporary validation logic; we need to check length and forbidden words.
+        if (message == null || message.trim().isEmpty()) {
+            return false;
+        }
+        // Return true if the message is deemed basically valid.
+        return true;
+    }
 }
