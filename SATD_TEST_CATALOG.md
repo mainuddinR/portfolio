@@ -1,0 +1,20 @@
+# SATD TEST CATALOG
+
+SATD:
+DESIGN: 22
+DEFECT: 2
+TEST: 2
+REQUIREMENT: 2
+DOCUMENTATION: 2
+AMBIGUOUS/UNCLASSIFIED: 5
+NON-SATD: 20
+TOTAL ANALYZABLE COMMENTS: 55
+
+SEVERITY TARGETS:
+1: 6
+2: 2
+3: 2
+4: 1
+5: 1
+
+(The rest of the comments are generic severity 1 for counting purposes)
